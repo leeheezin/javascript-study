@@ -10,5 +10,5 @@ const bgImg = document.createElement("img")
 
 bgImg.src = `img/${choseImg}`
 
-document.body.prepend(bgImg)
+document.body.append(bgImg)
 //append 가장뒤에 prepend 가장위에
