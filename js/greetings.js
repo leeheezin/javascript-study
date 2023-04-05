@@ -15,7 +15,7 @@ function handleLinkClick(event){
 
 function paintGreeting(){
     const username = localStorage.getItem(USERNAME_KEY)
-    greeting.innerText = `Hello ${username} yo-i`
+    greeting.innerText = `Hello, ${username}`
     greeting.classList.remove(HIDDEN_CLASS)
 }
 const saveUsername = localStorage.getItem(USERNAME_KEY)
